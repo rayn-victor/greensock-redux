@@ -1,6 +1,31 @@
 @charset "UTF-8";
 
-.hidden
+main
 {
-	display: none;
+	text-align: center;
+}
+
+h1, h3
+{
+	margin: 30px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+h3
+{
+	font-size: 24px;
+}
+
+.container
+{
+	width: 30%;
+	display: inline-block;
+}
+
+.container img
+{
+	display: block;
+	width: 100%;
 }
